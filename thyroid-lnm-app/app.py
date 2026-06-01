@@ -38,7 +38,7 @@ except Exception:
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent
-OUTPUT_DIR = BASE_DIR / "models"
+OUTPUT_DIR = BASE_DIR
 
 LAYER1_NAME = "Layer1_N0_vs_Nplus"
 LAYER2_NAME = "Layer2_N1a_vs_N1b"
